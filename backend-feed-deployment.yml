@@ -15,14 +15,14 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: chidigodwin/udagram-api-feed:v1
+      - image: chidigodwin/udagram-api-feed:v2
         name: backend-feed
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
         resources:
           requests:
-            memory: "1024Mi"
+            memory: "4096Mi"
             cpu: "250m"
           limits:
             memory: "8192Mi"
