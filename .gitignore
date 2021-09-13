@@ -1,2 +1,5 @@
 *set_env.sh
 *node_module*
+*env*
+kustomization*
+*secret*
