@@ -29,4 +29,4 @@ after_success:
   - docker push chidigodwin/udagram-api-feed:v1
   - docker push chidigodwin/udagram-api-user:v1
   - docker push chidigodwin/reverseproxy:v1
-  - docker push chidigodwin/udagram-frontend:v1
+  - docker push chidigodwin/udagram-frontend:v2
