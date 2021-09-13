@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: chidigodwin/udagram-frontend:v2
+      - image: chidigodwin/udagram-frontend:v3
         name: frontend
         imagePullPolicy: Always          
         ports:
