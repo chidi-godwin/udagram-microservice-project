@@ -18,7 +18,7 @@ import {V0_FEED_MODELS} from './controllers/v0/model.index';
   const app = express();
   const port = process.env.PORT || 8080;
 
-  app.use(express.json());
+  app.use(bodyParser.json());
 
   // We set the CORS origin to * so that we don't need to
   // worry about the complexities of CORS this lesson. It's
