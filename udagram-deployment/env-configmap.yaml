@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: gnc-microservice-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: hellowhathappen
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: postgres.c42anbngt4we.us-east-1.rds.amazonaws.com
+  URL: http://10.100.25.166:8100  
+metadata:
+  name: env-config

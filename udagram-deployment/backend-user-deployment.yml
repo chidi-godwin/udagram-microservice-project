@@ -5,7 +5,7 @@ metadata:
     service: backend-user
   name: backend-user
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       service: backend-user
@@ -59,4 +59,3 @@ spec:
               name: env-secret
               key: POSTGRES_USERNAME
       restartPolicy: Always
-      
