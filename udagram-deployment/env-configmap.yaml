@@ -7,6 +7,6 @@ data:
   JWT_SECRET: hellowhathappen
   POSTGRES_DB: postgres
   POSTGRES_HOST: postgres.c42anbngt4we.us-east-1.rds.amazonaws.com
-  URL: http://10.100.25.166:8100  
+  URL: afe89cac6d0614b2fa160653799f8cbe-818836268.us-east-1.elb.amazonaws.com 
 metadata:
   name: env-config
